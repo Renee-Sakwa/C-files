@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    float height; 
+    double balance;
+    string phone; 
+
+    cout << "Enter Height (meters/cm): "; cin >> height; 
+    cout << "Enter Bank balance (KES): "; cin >> balance; 
+    cout << "Enter Phone number: "; cin >> phone; 
+
+    cout << "\n--- User Details ---\nHeight: " << height 
+         << "\nBalance: " << balance << "\nPhone: " << phone << endl; 
+    return 0;
+}
