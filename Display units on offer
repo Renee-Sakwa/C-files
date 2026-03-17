@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Units Offered This Semester:" << endl; 
+    cout << "1. Introduction to Programming" << endl; 
+    cout << "2. Data Structures" << endl; 
+    cout << "3. Computer Networks" << endl; 
+    cout << "4. Database Systems" << endl; 
+    cout << "5. Software Engineering" << endl; 
+    return 0;
+}
