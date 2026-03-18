@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double revenue[7], total = 0; 
+    for(int i=0; i<7; i++) {
+        cout << "Day " << i+1 << " revenue: "; cin >> revenue[i]; 
+        total += revenue[i];
+    }
+    cout << "Total: " << total << "\nAvg: " << total/7; 
+    return 0;
+}
