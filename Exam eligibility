@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float att, marks;
+    cout << "Enter attendance (%) and average marks: "; cin >> att >> marks;
+
+    if (att >= 75 && marks >= 40) { 
+        cout << "Eligible for exams." << endl;
+    } else {
+        cout << "Not eligible." << endl; 
+    return 0;
+}
