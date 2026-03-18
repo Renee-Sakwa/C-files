@@ -1,0 +1,5 @@
+double calculateElectricBill(int units) {
+    if (units <= 100) return units * 10;
+    if (units <= 200) return (100 * 10) + (units - 100) * 15; 
+    return (100 * 10) + (100 * 15) + (units - 200) * 20; 
+}
