@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    cout << "1. 100MB\n2. 500MB\n3. 1GB\n4. 2GB\nChoice: "; cin >> choice;
+
+    switch(choice) { [cite: 85]
+        case 1: cout << "100MB - 50 KES"; break;
+        case 2: cout << "500MB - 200 KES"; break;
+        case 3: cout << "1GB - 350 KES"; break;
+        case 4: cout << "2GB - 600 KES"; break;
+        default: cout << "Invalid choice"; 
+    }
+    return 0;
+}
