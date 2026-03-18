@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double balance, withdraw;
+    cout << "Enter initial balance: "; cin >> balance;
+    while (balance > 0) { 
+        cout << "Withdraw amount: "; cin >> withdraw;
+        balance -= withdraw;
+        cout << "New balance: " << balance << endl;
+    }
+    return 0;
+}
